@@ -20,7 +20,7 @@ const Home = () => {
               Hello<br /> <span className="text-accent">I'm Mahin</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            Turning Ideas into Reality, One Line of Code at a Time.
+            Turning ideas into reality, one line of code at a time.
             </p>
             
             {/*buttons and socials*/}

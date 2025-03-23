@@ -1,8 +1,9 @@
-const Services = () => {
-  return (
-    <div>
-        projects page
-    </div>
-    );
-};
-export default Services;
+const Work = () => {
+    return (
+      <div>
+            Projects
+      </div>
+      );
+  };
+export default Work;
+  
