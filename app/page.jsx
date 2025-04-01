@@ -2,7 +2,6 @@
 import { Button } from "@/components/ui/button";
 import {FiDownload} from "react-icons/fi";
 
-
 //components
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
@@ -25,10 +24,13 @@ const Home = () => {
             
             {/*buttons and socials*/}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button variant="outline" size="lg" classname="uppercase flex items-center gap-2">
+            <Button variant="outline" size="lg" asChild className="uppercase flex items-center gap-2">
+              <a href="https://drive.google.com/file/d/1X8M7BKsAawUx7-Ni5WrusJww1UEKMUx6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <span>Download Resume</span>
-                <FiDownload className="text-xl"/>
-              </Button>
+                <FiDownload className="text-xl" />
+              </a>
+            </Button>
+
               <div className="mb-8 xl:mb-0">
                 <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center bg-accent items-center text-primary text-base hover:bg-primary hover:text-accent hover:transition-all duration-500" />
               </div>
@@ -42,6 +44,7 @@ const Home = () => {
       </div>
       <Stats/>
     </section>
+
   )
 }
 

@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
     darkMode: ["class"],
     content: [
@@ -47,5 +48,5 @@ module.exports = {
       backgroundColor: ['group-hover','hover'],
     }
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate","tailwind-scrollbar")],
 }

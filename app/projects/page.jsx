@@ -18,33 +18,43 @@ import Image from "next/image";
 const projects = [
   {
     num: "01",
-    category: "Web Development",
+    category: "mittiMate",
     title: "Project 1",
-    description: "Project 1 description",
-    stack: [{name: "React", color: "blue"}, {name: "Next.js", color: "black"}, {name: "TailwindCSS", color: "gray"}],
+    description: "Designed and developed the front-end for MittiMate, a web platform that aims to empower farmers by offering personalized, data-driven fertilizer recommendations. The platform integrates real-time data on soil health, crop type, and weather patterns to provide sustainable and cost-effective solutions.",
+    stack: [{name: "React", color: "blue"},],
     image: "/assets/work/thumb1.png",
-    live: "",
-    github: ""
+    live: "https://mitti-mate.vercel.app/",
+    github: "https://github.com/maaaahin/MittiMate-Frontend"
   },
   {
     num: "02",
-    category: "Web Development",
-    title: "Project 1",
-    description: "Project 1 description",
+    category: "Portfolio Webisite",
+    title: "Project 3",
+    description: "A sleek and responsive portfolio website built using Next.js, React, and Tailwind CSS. Designed for performance and seamless user experience, it showcases my skills, projects, experience, and certifications in a visually appealing way. With fast navigation and a modern UI, this portfolio reflects my expertise as a developer while ensuring accessibility and responsiveness across all devices.",
     stack: [{name: "React", color: "blue"}, {name: "Next.js", color: "black"}, {name: "TailwindCSS", color: "gray"}],
     image: "/assets/work/thumb1.png",
+    live: "https://portfolio-mahin.vercel.app/",
+    github: "https://github.com/maaaahin/mahin-portfolio"
+  },
+  {
+    num: "02",
+    category: "InvestInsight - Stock Dashboard",
+    title: "Project 2",
+    description: "InvestInsight is a stock analysis platform built with Next.js, React, and Tailwind CSS, offering real-time financial insights. It enables users to analyze stock prices, track financial statements, and access sentiment-driven news analysis. The platform features interactive charts, fundamental data retrieval, AI-powered stock suggestions using A Search, and financial news sentiment analysis* to help investors make informed decisions.",
+    stack: [{name: "Streamlit", color: "blue"}, {name: "Yahoo Finance", color: "black"},],
+    image: "/assets/work/thumb1.png",
     live: "",
-    github: ""
+    github: "https://github.com/maaaahin/Stock-Dashboard-Streamlit"
   },
   {
     num: "03",
-    category: "Web Development",
-    title: "Project 1",
-    description: "Project 1 description",
+    category: "Portfolio Webisite",
+    title: "Project 3",
+    description: "A sleek and responsive portfolio website built using Next.js, React, and Tailwind CSS. Designed for performance and seamless user experience, it showcases my skills, projects, experience, and certifications in a visually appealing way. With fast navigation and a modern UI, this portfolio reflects my expertise as a developer while ensuring accessibility and responsiveness across all devices.",
     stack: [{name: "React", color: "blue"}, {name: "Next.js", color: "black"}, {name: "TailwindCSS", color: "gray"}],
     image: "/assets/work/thumb1.png",
-    live: "",
-    github: ""
+    live: "https://portfolio-mahin.vercel.app/",
+    github: "https://github.com/maaaahin/mahin-portfolio"
   },
 ];
 
