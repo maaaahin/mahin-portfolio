@@ -11,9 +11,9 @@ import {
     FaGithub
   } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiFastapi, SiAmazonwebservices, SiDocker } from "react-icons/si";
 import { PiFileSql } from "react-icons/pi";
-import { SiMongodb, SiTensorflow } from "react-icons/si";
+import { SiMongodb, SiTensorflow} from "react-icons/si";
 
 import { SiPostman } from "react-icons/si";
 //about data
@@ -56,6 +56,11 @@ const experience = {
     description: "Professional Experiences That Define Me",
     items: [
         {
+            company : "Thinkvibes Software",
+            position: "Web Dev Intern",
+            duration: "May - June 2025",
+        },
+        {
             company : "Orinson Technologies",
             position: "Machine Learning Intern",
             duration: "November - December 2024",
@@ -72,6 +77,11 @@ const certificates = {
             id : "verify.certiport.com: wkWy4-2FMV",
             name: "Microsoft Azure DP-900",
             date : "July 29, 2024",
+        },
+        {
+            id : "51ca8dfcaf604ce6b90e03f3c1e7a45d",
+            name: "AWS Certified Cloud Practitioner",
+            date : "May 21, 2025",
         },
     ],
 }
@@ -163,6 +173,18 @@ const skills = {
         {
             icon: <SiPostman/>,
             name: "Postman",
+        },
+        {
+            icon: <SiFastapi/>,
+            name: "Fast API",
+        },
+        {
+            icon: <SiAmazonwebservices/>,
+            name: "AWS",
+        },
+        {
+            icon: <SiDocker/>,
+            name: "Docker",
         }
     ]
 }

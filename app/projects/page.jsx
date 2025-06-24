@@ -18,33 +18,54 @@ import Image from "next/image";
 const projects = [
   {
     num: "01",
+    category: "DruGo",
+    title: "Online Pharmacy Platform",
+    description: "Developed a full-stack online pharmacy platform for Vinayaak Medical & General Store, offering a modern interface to browse, search, and order medicines. Features include product filtering, cart functionality, and an admin dashboard. The app is deployed on AWS EC2 with Nginx and PM2 for production-ready hosting.",
+    stack: [
+      { name: "React", color: "blue" },
+      { name: "Node.js", color: "green" },
+      { name: "MongoDB", color: "emerald" },
+      { name: "PostgreSQL", color: "indigo" },
+      { name: "AWS EC2", color: "orange" }
+    ],
+    image: "/assets/work/1.png",
+    live: "https://drugo.live/", // replace with your actual domain if different
+    github: "https://github.com/maaaahin/DruGo-Online-Pharmacy"
+  },
+  {
+    num: "02",
+    category: "Invest Insight",
+    title: "Sentiment Analysis Dashboard",
+    description: "Built a real-time financial sentiment analysis platform that analyzes stock-related news using NLP techniques to predict market sentiment. The tool integrates data from yFinance and presents sentiment trends, enabling users to make data-driven investment decisions.",
+    stack: [
+      { name: "Python", color: "yellow" },
+      { name: "Streamlit", color: "red" },
+      { name: "yFinance", color: "gray" },
+      { name: "NLTK", color: "purple" }
+    ],
+    image: "/assets/work/2.png",
+    live: "https://investinsight.streamlit.app/", // replace if hosted elsewhere
+    github: "https://github.com/maaaahin/invest-insight"
+  },    
+  {
+    num: "03",
     category: "mittiMate",
     title: "Project 1",
     description: "Designed and developed the front-end for MittiMate, a web platform that aims to empower farmers by offering personalized, data-driven fertilizer recommendations. The platform integrates real-time data on soil health, crop type, and weather patterns to provide sustainable and cost-effective solutions.",
     stack: [{name: "React", color: "blue"},],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/3.png",
     live: "https://mitti-mate.vercel.app/",
     github: "https://github.com/maaaahin/MittiMate-Frontend"
   },
   {
-    num: "02",
+    num: "04",
     category: "Portfolio Webisite",
     title: "Project 2",
     description: "A sleek and responsive portfolio website built using Next.js, React, and Tailwind CSS. Designed for performance and seamless user experience, it showcases my skills, projects, experience, and certifications in a visually appealing way. With fast navigation and a modern UI, this portfolio reflects my expertise as a developer while ensuring accessibility and responsiveness across all devices.",
     stack: [{name: "React", color: "blue"}, {name: "Next.js", color: "black"}, {name: "TailwindCSS", color: "gray"}],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/4.png",
     live: "https://portfolio-mahin.vercel.app/",
     github: "https://github.com/maaaahin/mahin-portfolio"
-  },
-  {
-    num: "02",
-    category: "InvestInsight - Stock Dashboard",
-    title: "Project 3",
-    description: "InvestInsight is a stock analysis platform built with Next.js, React, and Tailwind CSS, offering real-time financial insights. It enables users to analyze stock prices, track financial statements, and access sentiment-driven news analysis. The platform features interactive charts, fundamental data retrieval, AI-powered stock suggestions using A Search, and financial news sentiment analysis* to help investors make informed decisions.",
-    stack: [{name: "Streamlit", color: "blue"}, {name: "Yahoo Finance", color: "black"},],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "https://github.com/maaaahin/Stock-Dashboard-Streamlit"
   },
 ];
 
